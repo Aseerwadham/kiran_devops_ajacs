@@ -248,3 +248,8 @@ def index():
         return 'success'
     return render_template('index.html')
 	
+![preview](./On-Premises_Images/image1.png)
+![preview](./On-Premises_Images/image2.png)
+![preview](./On-Premises_Images/image3.png)
+![preview](./On-Premises_Images/image4.png)
+![preview](./On-Premises_Images/image5.png)
