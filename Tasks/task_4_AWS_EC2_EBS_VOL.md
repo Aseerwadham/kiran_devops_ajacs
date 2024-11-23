@@ -201,6 +201,8 @@ Step 2: Set Up Your Node.js Application
      ```
 ![preview](images_folder/ebs/image21.jpg)
 
+![preview](images_folder/ebs/image22.png)
+
 Step 3: Create the Elastic Beanstalk Application
 
 1. **Initialize Elastic Beanstalk:**
