@@ -16,19 +16,19 @@
     *	Create a new S3 bucket named multimedia-storage-[yourname]-bucket.
     *	Enable bucket versioning to manage file versions and track changes over time.
     *	Upload a few files with the same name multiple times to test versioning. Observe how S3 maintains versions of each object.
-![preview](Images_folder/s3/image1.png)
-![preview](Images_folder/s3/image2.png)
-![preview](Images_folder/s3/image3.png)
-![preview](Images_folder/s3/image4.png)
-![preview](Images_folder/s3/image5.png)
-![preview](Images_folder/s3/image6.png)
-![preview](Images_folder/s3/image11.png)
-![preview](Images_folder/s3/image12.png)
-![preview](Images_folder/s3/image13.png)
+![preview](images_folder/s3/image1.png)
+![preview](images_folder/s3/image2.png)
+![preview](images_folder/s3/image3.png)
+![preview](images_folder/s3/image4.png)
+![preview](images_folder/s3/image5.png)
+![preview](images_folder/s3/image6.png)
+![preview](images_folder/s3/image11.png)
+![preview](images_folder/s3/image12.png)
+![preview](images_folder/s3/image13.png)
 
-![preview](Images_folder/s3/image18.png)
-![preview](Images_folder/s3/image19.png)
-![preview](Images_folder/s3/image20.png)
+![preview](images_folder/s3/image18.png)
+![preview](images_folder/s3/image19.png)
+![preview](images_folder/s3/image20.png)
 
 
 2.	Organize Files Using Prefixes (Folders)
@@ -38,15 +38,15 @@
        -	documents/
     *	Upload several files into each "folder" and understand how prefixes work in S3 to simulate directory structures.
 
-![preview](Images_folder/s3/image7.png)
-![preview](Images_folder/s3/image8.png)
-![preview](Images_folder/s3/image9.png)
-![preview](Images_folder/s3/image10.png)
+![preview](images_folder/s3/image7.png)
+![preview](images_folder/s3/image8.png)
+![preview](images_folder/s3/image9.png)
+![preview](images_folder/s3/image10.png)
 
-![preview](Images_folder/s3/image21.png)
-![preview](Images_folder/s3/image22.png)
-![preview](Images_folder/s3/image23.png)
-![preview](Images_folder/s3/image24.png)
+![preview](images_folder/s3/image21.png)
+![preview](images_folder/s3/image22.png)
+![preview](images_folder/s3/image23.png)
+![preview](images_folder/s3/image24.png)
 
 
 3.	Implement Lifecycle Policies for Cost Optimization
@@ -56,12 +56,12 @@
        -	Experiment with different configurations for archiving data based on folder and file type.
     *	Document each lifecycle policy created and explain why it’s optimized for cost and access patterns.
 
-![preview](Images_folder/s3/image25.png)
-![preview](Images_folder/s3/image26.png)
-![preview](Images_folder/s3/image27.png)
-![preview](Images_folder/s3/image28.png)
-![preview](Images_folder/s3/image29.png)
-![preview](Images_folder/s3/image30.png)
+![preview](images_folder/s3/image25.png)
+![preview](images_folder/s3/image26.png)
+![preview](images_folder/s3/image27.png)
+![preview](images_folder/s3/image28.png)
+![preview](images_folder/s3/image29.png)
+![preview](images_folder/s3/image30.png)
 
 
 4.	Enable Server-Side Encryption
@@ -69,8 +69,8 @@
     *	Use S3 managed keys (SSE-S3) or AWS KMS keys (SSE-KMS).
     *	Document the steps taken to enable encryption and the differences between SSE-S3 and SSE-KMS.
 
-![preview](Images_folder/s3/image31.png)
-![preview](Images_folder/s3/image32.png)
+![preview](images_folder/s3/image31.png)
+![preview](images_folder/s3/image32.png)
 
 5.	Configure Access Controls and Bucket Policies
     *	Create a bucket policy that grants read access to a specific IAM role or user.
@@ -78,29 +78,29 @@
     *	Ensure that public access is blocked (unless specified) to prevent unintended exposure.
     *	Review the policy and understand how permissions are defined and restricted.
 
-![preview](Images_folder/s3/image33.png)
-![preview](Images_folder/s3/image34.png)
-![preview](Images_folder/s3/image35.png)
-![preview](Images_folder/s3/image36.png)
-![preview](Images_folder/s3/image37.png)
+![preview](images_folder/s3/image33.png)
+![preview](images_folder/s3/image34.png)
+![preview](images_folder/s3/image35.png)
+![preview](images_folder/s3/image36.png)
+![preview](images_folder/s3/image37.png)
 
 6.	Set Up S3 Event Notifications for File Management Automation
     *	Configure the bucket to send event notifications on specific events, such as s3:ObjectCreated:* or s3:ObjectRemoved:*.
     *	Route notifications to an Amazon SNS topic or email to simulate automation for file management.
     *	Upload and delete files in the bucket, observing notifications for each action.
 
-![preview](Images_folder/s3/image38.png)
-![preview](Images_folder/s3/image39.png)
-![preview](Images_folder/s3/image40.png)
+![preview](images_folder/s3/image38.png)
+![preview](images_folder/s3/image39.png)
+![preview](images_folder/s3/image40.png)
 
 7.	Implement Cross-Region Replication (Optional)
     *	Set up Cross-Region Replication (CRR) to duplicate data from your primary bucket to a secondary bucket in another AWS region.
     *	Make sure versioning is enabled on both buckets and create IAM policies that permit replication.
     *	Test the replication by uploading files to the primary bucket and verifying their presence in the secondary bucket.
 
-![preview](Images_folder/s3/image41.png)
-![preview](Images_folder/s3/image42.png)
-![preview](Images_folder/s3/image43.png)
-![preview](Images_folder/s3/image44.png)
-![preview](Images_folder/s3/image45.png)
-![preview](Images_folder/s3/image46.png)
+![preview](images_folder/s3/image41.png)
+![preview](images_folder/s3/image42.png)
+![preview](images_folder/s3/image43.png)
+![preview](images_folder/s3/image44.png)
+![preview](images_folder/s3/image45.png)
+![preview](images_folder/s3/image46.png)
