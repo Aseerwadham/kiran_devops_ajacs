@@ -11,11 +11,11 @@
    ```aws ec2 create-vpc --cidr-block 10.0.0.0/16```
    ```aws ec2 create-tags --resources vpc-0a6f82469832ef7ab --tags Key=Name,Value=MyVPC```
 
-![preview](Images_folder/cli/image1.png)
+![preview](images_folder/cli/image1.png)
 
-![preview](Images_folder/cli/image2.png)
+![preview](images_folder/cli/image2.png)
 
-![preview](Images_folder/cli/image5.png)
+![preview](images_folder/cli/image5.png)
 
 
 # create Pub and Pvt subnets
@@ -23,11 +23,11 @@
    ```aws ec2 create-subnet --vpc-id vpc-0a6f82469832ef7ab --cidr-block 10.0.1.0/24 --availability-zone us-east-1a```
    * pri:
    ```aws ec2 create-subnet --vpc-id vpc-0a6f82469832ef7ab --cidr-block 10.0.2.0/24 --availability-zone us-east-1b```
-![preview](Images_folder/cli/image3.png)
+![preview](images_folder/cli/image3.png)
 
-![preview](Images_folder/cli/image7.png)
+![preview](images_folder/cli/image7.png)
 
-![preview](Images_folder/cli/image6.png)
+![preview](images_folder/cli/image6.png)
 # create IGW:
    ```aws ec2 create-internet-gateway```
 
@@ -67,8 +67,8 @@ chmod 400 practice.key.pem
 ```aws ec2 run-instances --image-id ami-0166fe664262f664c --count 1 --instance-type t2.micro --key-name practice.key --subnet-id subnet-026c71cfd8b98725f --security-group-ids sg-0313d72ae1e215bfa```
 
 
-![preview](Images_folder/cli/image4.png)
+![preview](images_folder/cli/image4.png)
 
-![preview](Images_folder/cli/image8.png)
-![preview](Images_folder/cli/image9.png)
+![preview](images_folder/cli/image8.png)
+![preview](images_folder/cli/image9.png)
 
