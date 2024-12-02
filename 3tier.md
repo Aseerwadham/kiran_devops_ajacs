@@ -204,7 +204,7 @@ netstat -o -a (to get process ids using the ip/port)
 * give this info/configuration in application server(like ip, user, password, database)
 * also create a folder templates-->html
 <HTML>
-<BODY bgcolor="cyan">
+<BODY bgcolor="pink">
 <form method="POST" action="">
     <center>
     <H1>Enter your details </H1> <br>
